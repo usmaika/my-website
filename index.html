@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streaming Film</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">NICOFLIX</div>
+        <nav>
+            <a href="#" class="active">Beranda</a>
+            <a href="#">Film</a>
+            <a href="#">Series</a>
+            <a href="#">Kategori</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Banner Berjalan -->
+<section class="banner-carousel">
+    <div class="carousel-container">
+        <div class="carousel-slide"><img src="thumbnails/banner1.jpg" alt="Banner 1"></div>
+        <div class="carousel-slide"><img src="thumbnails/banner2.jpg" alt="Banner 2"></div>
+        <div class="carousel-slide"><img src="thumbnails/banner3.jpg" alt="Banner 3"></div>
+        <div class="carousel-slide"><img src="thumbnails/banner4.jpg" alt="Banner 4"></div>
+    </div>
+</section>
+
+
+        <!-- Daftar Film Populer -->
+        <section>
+            <h3>Populer</h3>
+            <div class="film-list">
+                <!-- Series dengan banyak episode -->
+                <a href="player.html?series=konosuba&title=Konosuba" class="film">
+                    <img src="thumbnails/konosuba.jpg" alt="Konosuba">
+                    <p>KONOSUBA</p>
+                </a>              
+                <!-- Film biasa -->
+                <a href="player.html?series=roshidere&title=roshidere" class="film">
+                    <img src="thumbnails/roshidere.jpg" alt="roshidere">
+                    <p>ROSHIDERE</p>
+                </a>
+                <a href="player.html?video=videos/recording3.mp4&title=Komedi" class="film">
+                    <img src="thumbnails/komedi.jpg" alt="Komedi">
+                    <p>Komedi</p>
+                </a>
+                <a href="player.html?video=videos/recording3.mp4&title=Komedi" class="film">
+                    <img src="thumbnails/komedi.jpg" alt="Komedi">
+                    <p>Komedi</p>
+                </a>
+                <a href="player.html?video=videos/recording4.mp4&title=Romantis" class="film">
+                    <img src="thumbnails/romantis.jpg" alt="Romantis">
+                    <p>Romantis</p>
+                </a>
+                <a href="player.html?video=videos/recording5.mp4&title=Thriller" class="film">
+                    <img src="thumbnails/thriller.jpg" alt="Thriller">
+                    <p>Thriller</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- Rekomendasi -->
+        <section>
+            <h3>Rekomendasi</h3>
+            <div class="film-list">
+                <a href="player.html?series=kekkonsuru&title=kekkonsuru" class="film">
+                    <img src="thumbnails/kekkon.jpg" alt="kekkon suru">
+                    <p>KEKKON SURU</p>
+                <a href="player.html?video=videos/film4.mp4&title=Film Horor" class="film">
+                    <img src="thumbnails/thumbnail4.jpg" alt="Film Horor">
+                    <p>Film Horor</p>
+                </a>
+                <a href="player.html?video=videos/film5.mp4&title=Film Petualangan" class="film">
+                    <img src="thumbnails/thumbnail5.jpg" alt="Film Petualangan">
+                    <p>Film Petualangan</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
